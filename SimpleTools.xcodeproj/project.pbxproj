@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4D3A0D20165EF90001AC26 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A0C20165EF90001AC26 /* index.html */; };
+		DB4D3A0F2016C8520001AC26 /* WKWebViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D3A0E2016C8510001AC26 /* WKWebViewWrapper.swift */; };
+		DB4D3A112016CFEE0001AC26 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A102016CFED0001AC26 /* app.js */; };
+		DB4D3A1320180D730001AC26 /* angular.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A1220180D730001AC26 /* angular.min.js */; };
+		DB4D3A15201822C40001AC26 /* angular-load.js in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A14201822C40001AC26 /* angular-load.js */; };
+		DBA4BDAF1F7DC86600F55A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4BDAE1F7DC86600F55A90 /* AppDelegate.swift */; };
+		DBA4BDB11F7DC86600F55A90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4BDB01F7DC86600F55A90 /* ViewController.swift */; };
+		DBA4BDB41F7DC86600F55A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA4BDB21F7DC86600F55A90 /* Main.storyboard */; };
+		DBA4BDB71F7DC86600F55A90 /* SimpleTools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBA4BDB51F7DC86600F55A90 /* SimpleTools.xcdatamodeld */; };
+		DBA4BDB91F7DC86600F55A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA4BDB81F7DC86600F55A90 /* Assets.xcassets */; };
+		DBA4BDBC1F7DC86600F55A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA4BDBA1F7DC86600F55A90 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB4D3A0C20165EF90001AC26 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DB4D3A0E2016C8510001AC26 /* WKWebViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewWrapper.swift; sourceTree = "<group>"; };
+		DB4D3A102016CFED0001AC26 /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		DB4D3A1220180D730001AC26 /* angular.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = angular.min.js; sourceTree = "<group>"; };
+		DB4D3A14201822C40001AC26 /* angular-load.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-load.js"; sourceTree = "<group>"; };
+		DBA4BDAB1F7DC86600F55A90 /* SimpleTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA4BDAE1F7DC86600F55A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBA4BDB01F7DC86600F55A90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBA4BDB31F7DC86600F55A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA4BDB61F7DC86600F55A90 /* SimpleTools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleTools.xcdatamodel; sourceTree = "<group>"; };
+		DBA4BDB81F7DC86600F55A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBA4BDBB1F7DC86600F55A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBA4BDBD1F7DC86600F55A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA4BDA81F7DC86600F55A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBA4BDA21F7DC86600F55A90 = {
+			isa = PBXGroup;
+			children = (
+				DBA4BDAD1F7DC86600F55A90 /* SimpleTools */,
+				DBA4BDAC1F7DC86600F55A90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA4BDAC1F7DC86600F55A90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA4BDAB1F7DC86600F55A90 /* SimpleTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA4BDAD1F7DC86600F55A90 /* SimpleTools */ = {
+			isa = PBXGroup;
+			children = (
+				DB4D3A14201822C40001AC26 /* angular-load.js */,
+				DB4D3A1220180D730001AC26 /* angular.min.js */,
+				DBA4BDAE1F7DC86600F55A90 /* AppDelegate.swift */,
+				DBA4BDB01F7DC86600F55A90 /* ViewController.swift */,
+				DBA4BDB21F7DC86600F55A90 /* Main.storyboard */,
+				DBA4BDB81F7DC86600F55A90 /* Assets.xcassets */,
+				DBA4BDBA1F7DC86600F55A90 /* LaunchScreen.storyboard */,
+				DBA4BDBD1F7DC86600F55A90 /* Info.plist */,
+				DBA4BDB51F7DC86600F55A90 /* SimpleTools.xcdatamodeld */,
+				DB4D3A0C20165EF90001AC26 /* index.html */,
+				DB4D3A0E2016C8510001AC26 /* WKWebViewWrapper.swift */,
+				DB4D3A102016CFED0001AC26 /* app.js */,
+			);
+			path = SimpleTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA4BDAA1F7DC86600F55A90 /* SimpleTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA4BDC01F7DC86600F55A90 /* Build configuration list for PBXNativeTarget "SimpleTools" */;
+			buildPhases = (
+				DBA4BDA71F7DC86600F55A90 /* Sources */,
+				DBA4BDA81F7DC86600F55A90 /* Frameworks */,
+				DBA4BDA91F7DC86600F55A90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTools;
+			productName = SimpleTools;
+			productReference = DBA4BDAB1F7DC86600F55A90 /* SimpleTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA4BDA31F7DC86600F55A90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Brainfeaster;
+				TargetAttributes = {
+					DBA4BDAA1F7DC86600F55A90 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GVB3EZ477T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBA4BDA61F7DC86600F55A90 /* Build configuration list for PBXProject "SimpleTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA4BDA21F7DC86600F55A90;
+			productRefGroup = DBA4BDAC1F7DC86600F55A90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA4BDAA1F7DC86600F55A90 /* SimpleTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA4BDA91F7DC86600F55A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4D3A112016CFEE0001AC26 /* app.js in Resources */,
+				DB4D3A15201822C40001AC26 /* angular-load.js in Resources */,
+				DBA4BDBC1F7DC86600F55A90 /* LaunchScreen.storyboard in Resources */,
+				DB4D3A0D20165EF90001AC26 /* index.html in Resources */,
+				DB4D3A1320180D730001AC26 /* angular.min.js in Resources */,
+				DBA4BDB91F7DC86600F55A90 /* Assets.xcassets in Resources */,
+				DBA4BDB41F7DC86600F55A90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA4BDA71F7DC86600F55A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA4BDB11F7DC86600F55A90 /* ViewController.swift in Sources */,
+				DB4D3A0F2016C8520001AC26 /* WKWebViewWrapper.swift in Sources */,
+				DBA4BDB71F7DC86600F55A90 /* SimpleTools.xcdatamodeld in Sources */,
+				DBA4BDAF1F7DC86600F55A90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBA4BDB21F7DC86600F55A90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA4BDB31F7DC86600F55A90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBA4BDBA1F7DC86600F55A90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA4BDBB1F7DC86600F55A90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBA4BDBE1F7DC86600F55A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBA4BDBF1F7DC86600F55A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA4BDC11F7DC86600F55A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVB3EZ477T;
+				INFOPLIST_FILE = SimpleTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carefirst.membertest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBA4BDC21F7DC86600F55A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVB3EZ477T;
+				INFOPLIST_FILE = SimpleTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carefirst.membertest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA4BDA61F7DC86600F55A90 /* Build configuration list for PBXProject "SimpleTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA4BDBE1F7DC86600F55A90 /* Debug */,
+				DBA4BDBF1F7DC86600F55A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA4BDC01F7DC86600F55A90 /* Build configuration list for PBXNativeTarget "SimpleTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA4BDC11F7DC86600F55A90 /* Debug */,
+				DBA4BDC21F7DC86600F55A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBA4BDB51F7DC86600F55A90 /* SimpleTools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBA4BDB61F7DC86600F55A90 /* SimpleTools.xcdatamodel */,
+			);
+			currentVersion = DBA4BDB61F7DC86600F55A90 /* SimpleTools.xcdatamodel */;
+			path = SimpleTools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBA4BDA31F7DC86600F55A90 /* Project object */;
+}
