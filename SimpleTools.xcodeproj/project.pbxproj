@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB4D3A0D20165EF90001AC26 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A0C20165EF90001AC26 /* index.html */; };
-		DB4D3A0F2016C8520001AC26 /* WKWebViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D3A0E2016C8510001AC26 /* WKWebViewWrapper.swift */; };
-		DB4D3A112016CFEE0001AC26 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A102016CFED0001AC26 /* app.js */; };
-		DB4D3A1320180D730001AC26 /* angular.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A1220180D730001AC26 /* angular.min.js */; };
-		DB4D3A15201822C40001AC26 /* angular-load.js in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A14201822C40001AC26 /* angular-load.js */; };
+		DB4D3A17201981290001AC26 /* appBase in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A16201981280001AC26 /* appBase */; };
+		DB4D3A19201C0DFE0001AC26 /* RSMProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D3A18201C0DFD0001AC26 /* RSMProcessor.swift */; };
+		DB4D3A1B201C0F430001AC26 /* DummyJSONProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D3A1A201C0F430001AC26 /* DummyJSONProcessor.swift */; };
+		DB4D3A1F201C18800001AC26 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB4D3A1E201C18800001AC26 /* Notes.txt */; };
+		DB4D3A21201C1BFA0001AC26 /* CommandCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D3A20201C1BFA0001AC26 /* CommandCenter.swift */; };
 		DBA4BDAF1F7DC86600F55A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4BDAE1F7DC86600F55A90 /* AppDelegate.swift */; };
 		DBA4BDB11F7DC86600F55A90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4BDB01F7DC86600F55A90 /* ViewController.swift */; };
 		DBA4BDB41F7DC86600F55A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA4BDB21F7DC86600F55A90 /* Main.storyboard */; };
@@ -21,11 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB4D3A0C20165EF90001AC26 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		DB4D3A0E2016C8510001AC26 /* WKWebViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewWrapper.swift; sourceTree = "<group>"; };
-		DB4D3A102016CFED0001AC26 /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
-		DB4D3A1220180D730001AC26 /* angular.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = angular.min.js; sourceTree = "<group>"; };
-		DB4D3A14201822C40001AC26 /* angular-load.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "angular-load.js"; sourceTree = "<group>"; };
+		DB4D3A16201981280001AC26 /* appBase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = appBase; sourceTree = "<group>"; };
+		DB4D3A18201C0DFD0001AC26 /* RSMProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSMProcessor.swift; sourceTree = "<group>"; };
+		DB4D3A1A201C0F430001AC26 /* DummyJSONProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DummyJSONProcessor.swift; path = ../DummyJSONProcessor.swift; sourceTree = "<group>"; };
+		DB4D3A1E201C18800001AC26 /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
+		DB4D3A20201C1BFA0001AC26 /* CommandCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandCenter.swift; path = ../CommandCenter.swift; sourceTree = "<group>"; };
 		DBA4BDAB1F7DC86600F55A90 /* SimpleTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA4BDAE1F7DC86600F55A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBA4BDB01F7DC86600F55A90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,18 +66,18 @@
 		DBA4BDAD1F7DC86600F55A90 /* SimpleTools */ = {
 			isa = PBXGroup;
 			children = (
-				DB4D3A14201822C40001AC26 /* angular-load.js */,
-				DB4D3A1220180D730001AC26 /* angular.min.js */,
+				DB4D3A16201981280001AC26 /* appBase */,
 				DBA4BDAE1F7DC86600F55A90 /* AppDelegate.swift */,
+				DB4D3A1A201C0F430001AC26 /* DummyJSONProcessor.swift */,
 				DBA4BDB01F7DC86600F55A90 /* ViewController.swift */,
+				DB4D3A20201C1BFA0001AC26 /* CommandCenter.swift */,
 				DBA4BDB21F7DC86600F55A90 /* Main.storyboard */,
 				DBA4BDB81F7DC86600F55A90 /* Assets.xcassets */,
 				DBA4BDBA1F7DC86600F55A90 /* LaunchScreen.storyboard */,
 				DBA4BDBD1F7DC86600F55A90 /* Info.plist */,
 				DBA4BDB51F7DC86600F55A90 /* SimpleTools.xcdatamodeld */,
-				DB4D3A0C20165EF90001AC26 /* index.html */,
-				DB4D3A0E2016C8510001AC26 /* WKWebViewWrapper.swift */,
-				DB4D3A102016CFED0001AC26 /* app.js */,
+				DB4D3A18201C0DFD0001AC26 /* RSMProcessor.swift */,
+				DB4D3A1E201C18800001AC26 /* Notes.txt */,
 			);
 			path = SimpleTools;
 			sourceTree = "<group>";
@@ -142,13 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4D3A112016CFEE0001AC26 /* app.js in Resources */,
-				DB4D3A15201822C40001AC26 /* angular-load.js in Resources */,
 				DBA4BDBC1F7DC86600F55A90 /* LaunchScreen.storyboard in Resources */,
-				DB4D3A0D20165EF90001AC26 /* index.html in Resources */,
-				DB4D3A1320180D730001AC26 /* angular.min.js in Resources */,
+				DB4D3A17201981290001AC26 /* appBase in Resources */,
 				DBA4BDB91F7DC86600F55A90 /* Assets.xcassets in Resources */,
 				DBA4BDB41F7DC86600F55A90 /* Main.storyboard in Resources */,
+				DB4D3A1F201C18800001AC26 /* Notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBA4BDB11F7DC86600F55A90 /* ViewController.swift in Sources */,
-				DB4D3A0F2016C8520001AC26 /* WKWebViewWrapper.swift in Sources */,
+				DB4D3A1B201C0F430001AC26 /* DummyJSONProcessor.swift in Sources */,
 				DBA4BDB71F7DC86600F55A90 /* SimpleTools.xcdatamodeld in Sources */,
 				DBA4BDAF1F7DC86600F55A90 /* AppDelegate.swift in Sources */,
+				DB4D3A19201C0DFE0001AC26 /* RSMProcessor.swift in Sources */,
+				DB4D3A21201C1BFA0001AC26 /* CommandCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

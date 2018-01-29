@@ -1,0 +1,81 @@
+<header class="bar-title">
+    <h1 class="title">Settings</h1>
+</header>
+<nav class="bar bar-tab">
+    <a class="tab-item active" href="#">
+        <span class="icon icon-home"></span>
+        <span class="tab-label">Home</span>
+    </a>
+    <a class="tab-item" href="#/AboutUs">
+        <span class="icon icon-search"></span>
+        <span class="tab-label">About Us</span>
+    </a>
+</nav>
+<div class="content">
+    <div class="card">
+        <ul class="table-view">
+            <li class="table-view-cell">
+                <h5 style="color:black; ">  Rajya Sabha Members (App501) [{{ RSMCount }}]
+                    <span ng-if="!isTOCAppReady"><img  style="width:17px;height:inherit;" src="img/red.jpg"/></span>
+                    <span ng-if="isTOCAppReady"><img  style="width:17px;height:inherit;" src="img/green.png"/></span></h5>
+                <div>
+                    <img style="width:30%; " class="media-object pull-left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/New_Delhi_government_block_03-2016_img3.jpg/220px-New_Delhi_government_block_03-2016_img3.jpg">
+                    <div style="height:50px; ">
+                        <span style="width:15%;text-align:center; display:inline-block; vertical-align: middle; "
+                              ng-click="initApp('RSM');">
+                            <span class="icon icon-download "></span><br/>
+                            <span style="font-size:8px;">Download</span>
+                        </span> <!--get data from internet -->
+                        <a href="#/rsm"><span ng-if="isTOCAppReady" style="width:15%;text-align:center;  display:inline-block; vertical-align: middle;">
+                              <span class="icon icon-play "></span><!-- goto the app home page--><br/>
+                              <span style="font-size:8px;">Run</span>
+                            </span></a>
+                        <span  style="width:15%; text-align:center; display:inline-block; vertical-align: middle;; ">
+                                <span class="icon icon-info "></span><!-- learn about the app --><br/>
+                              <span style="font-size:8px;">Info</span>
+                            </span>
+                        <span  style="width:15%;text-align:center;  display:inline-block; vertical-align: middle; ">
+                                <span class="icon icon-trash "></span><!-- delete app local app --><br/>
+                              <span style="font-size:8px;">Delete</span>
+                            </span>
+                        <span  style="height:100%;display:inline-block; vertical-align: middle;"></span>
+                    </div>
+                </div>
+                <div class="media-body">
+                    <br/>
+                    <p>This provides information on alphabetical list of the members of Rajya Sabha </p>
+                </div>
+            </li>
+            <li class="table-view-cell">
+                <h5 style="color:black; ">  Lok Sabha Members (App502)<img style="width:17px;height:inherit;" src="img/red.jpg"> </h5>
+                <div>
+                    <img style="width:30%; " class="media-object pull-left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/New_Delhi_government_block_03-2016_img3.jpg/220px-New_Delhi_government_block_03-2016_img3.jpg">
+                    <div style="height:50px; ">
+                        <span style="width:15%;text-align:center; display:inline-block; vertical-align: middle; "
+                              ng-click="">
+                            <span class="icon icon-download "></span><br/>
+                            <span style="font-size:8px;">Download</span>
+                        </span> <!--get data from internet -->
+                        <span style="width:15%;text-align:center;  display:inline-block; vertical-align: middle;">
+                              <span class="icon icon-play "></span><!-- goto the app home page--><br/>
+                              <span style="font-size:8px;">Run</span>
+                            </span>
+                        <span  style="width:15%; text-align:center; display:inline-block; vertical-align: middle;; ">
+                                <span class="icon icon-info "></span><!-- learn about the app --><br/>
+                              <span style="font-size:8px;">Info</span>
+                            </span>
+                        <span  style="width:15%;text-align:center;  display:inline-block; vertical-align: middle; ">
+                                <span class="icon icon-trash "></span><!-- delete app local app --><br/>
+                              <span style="font-size:8px;">Delete</span>
+                            </span>
+                        <span  style="height:100%;display:inline-block; vertical-align: middle;"></span>
+                    </div>
+                </div>
+                <div class="media-body">
+                    <br/>
+                    <p>This provides information on alphabetical list of the members of Lok Sabha </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

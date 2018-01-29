@@ -1,8 +1,5 @@
 
-function efgh(){
-    
-}
-function callNativeApp() {
+/*function callNativeApp() {
     try {
         webkit.messageHandlers.messageBox.postMessage("Send from JavaScript");
     } catch(err) {
@@ -23,9 +20,9 @@ angular.module('TestApp.controllers', ['angularLoad']).controller('TestCtrl', fu
            $scope.JSONUrlFromCoreData = param;
                                                                   //console.log(param);
                                                                   param.replace('/', '');
-                                                                  var obj = JSON.parse(json);
+                                                                  var obj = JSON.parse(param);
                                                                   
                                                                   console.log(obj.length);
     }
    
-});
+});*/

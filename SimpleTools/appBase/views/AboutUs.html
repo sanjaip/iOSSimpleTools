@@ -1,0 +1,70 @@
+<!--https://codepen.io/aleksblago/pen/meXvvE-->
+<style>
+
+#ctnr {
+	width: 100%;
+	-webkit-perspective: 750;
+}
+
+#shape {
+	position: relative;
+	top: 120px;
+	margin: 0 auto;
+	width: 250px; height: 250px;
+
+	-webkit-animation: spin 5s infinite linear;
+	-webkit-transform-style: preserve-3d;
+}
+
+#shape > div {
+	border: 1px solid #333;
+	position: absolute;
+	width: 250px; height: 250px;
+
+	-webkit-border-radius: 4px;
+	-webkit-transition: -webkit-transform 2s;
+}
+
+#shape > div img {
+	width: 100%; height: 100%;
+}
+
+/* This is where the 3D magic happens */
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotateY(0) rotateX(0); }
+	to   { -webkit-transform: rotateY(-360deg) rotateX(360deg);}
+}
+
+/* 3D positioning for each of the images/links */
+.one { -webkit-transform: rotateX(90deg) translateZ(125px); }
+.two { -webkit-transform: translateZ(125px); }
+.three { -webkit-transform: rotateY(90deg) translateZ(125px); }
+.four { -webkit-transform: rotateY(180deg) translateZ(125px); }
+.five { -webkit-transform: rotateY(-90deg) translateZ(125px); }
+.six { -webkit-transform: rotateX(-90deg) translateZ(125px); }
+</style>
+<nav class="bar bar-tab">
+    <a class="tab-item active" href="#">
+        <span class="icon icon-home"></span>
+        <span class="tab-label">Home</span>
+    </a>
+    <a class="tab-item" href="#/AboutUs">
+        <span class="icon icon-search"></span>
+        <span class="tab-label">About Us</span>
+    </a>
+</nav>
+<div class="content">
+<div id="ctnr" style="height:500px">
+    <div id="shape">
+        <div class="one" style="background-color:red;"><img class="tab-icon" src="img/Logo.png"></div>
+        <div class="two" style="background-color:red;"><img class="tab-icon" src="img/Logo.png"></div>
+        <div class="three" style="background-color:red;"><img class="tab-icon" src="img/Logo.png"></div>
+        <div class="four" style="background-color:red;"><img class="tab-icon" src="img/Logo.png"></div>
+        <div class="five"><img class="tab-icon" src="img/Logo.png"></div>
+        <div class="six"><img class="tab-icon" src="img/Logo.png"></div>
+    </div>
+</div>
+    <div>
+        Sanjai is value based solutionist who thinks to bring value to common man and businesses with help of technologies.
+    </div>
+    </div>

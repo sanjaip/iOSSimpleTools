@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-ng-app="simpeTools">
+<head>
+  <meta charset="utf-8">
+  <title>Ratchet template page</title>
+
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="stylesheet" href="fonts/app.css">
+  <link rel="stylesheet" href="fonts/settings.css">
+  <link rel="stylesheet" href="fonts/ratchet.min.css">
+  <link rel="stylesheet" href="fonts/ratchet-theme-ios.min.css">
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/ratchet.min.js"></script>
+<!-- <script src="js/popovers.js"></script>
+  <script src="js/sliders.js"></script>
+  <script src="js/modals.js"></script>
+   <script src="js/toggles.js"></script>-->
+  <script src="js/push.js"></script>
+
+
+  </head>
+  <body  >
+    <div ng-view ng-animate="'slide'">
+
+
+    </div>
+
+    <script src="route/app.js"></script>
+
+
+    <!--Root module inclusion -->
+    
+    <script src="service/native-svc.js"></script>
+    <script src="js/root-factory.js"></script>
+    <script src="controller/root-ctrl.js"></script>
+    <script src="controller/toc-ctrl.js"></script>
+  </body>
+</html>

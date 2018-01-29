@@ -1,0 +1,54 @@
+<header class="bar bar-nav">
+  <button class="btn btn-link btn-nav pull-left" ng-if="currSTKey > 0" ng-click="prev();">
+    <span class="icon icon-left-nav"></span>
+    Prev
+  </button>
+  <button class="btn btn-link btn-nav pull-right" ng-if="currSTKey < STdata.length" ng-click="next();">
+    Next
+    <span class="icon icon-right-nav"></span>
+  </button>
+  <!--<a href="#RSMMenu">-->
+    <h1 class="title"> {{STdatum.Name}}
+   <!--   <span class="icon icon-caret"></span>-->
+    </h1>
+  </a>
+</header>
+<!--<div id="RSMMenu" class="popover">
+  <header class="bar bar-nav">
+    <h1 class="title">Sort/Filter</h1>
+  </header>
+  <ul class="table-view">
+    <li class="table-view-cell">From Tamil Nadu</li>
+    <li class="table-view-cell">From from </li>
+    <li class="table-view-cell">Item3</li>
+    <li class="table-view-cell">Item4</li>
+    <li class="table-view-cell">Item5</li>
+    <li class="table-view-cell">Item6</li>
+    <li class="table-view-cell">Item7</li>
+    <li class="table-view-cell">Item8</li>
+  </ul>
+</div>-->
+</div>
+<nav class="bar bar-tab">
+  <a class="tab-item active" href="#">
+    <span class="icon icon-home"></span>
+    <span class="tab-label">Home</span>
+  </a>
+  <a class="tab-item" href="#/AboutUs">
+    <span class="icon icon-search"></span>
+    <span class="tab-label">About Us</span>
+  </a>
+</nav>
+<div class="content">
+  <div class="card" >
+   <ul class="table-view" >
+      <li class="table-view-cell" ng-if="STdatum.State !== ''"><b>From:</b><br/>{{STdatum.State}}</li>
+      <li class="table-view-cell" ng-if="STdatum.Localaddress !== ''">{{STdatum.Localaddress}}</li>
+      <li class="table-view-cell">{{STdatum.Localphone}}</li>
+      <li class="table-view-cell" ng-if="STdatum.Paddress !== ''">{{STdatum.Paddress}}</li>
+      <li class="table-view-cell">{{STdatum.Permanentphone}}</li>
+      <li class="table-view-cell">Party : {{STdatum.Party}}</li>
+      <li class="table-view-cell">{{STdatum.EmailID}}</li>
+   </ul>
+  </div>
+</div>

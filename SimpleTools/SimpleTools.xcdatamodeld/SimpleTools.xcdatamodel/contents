@@ -8,13 +8,42 @@
         <attribute name="suite" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="zipcode" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
-        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="RajaSabhaMember" representedClassName="RajaSabhaMember" syncable="YES" codeGenerationType="class">
+        <attribute name="books" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cuntryVisite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfMarriage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="educatQualification" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fatherName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favouritePasstime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="freedom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maritalStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="motherName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noOfChildren" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placeOfBirth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="positionHeld" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="profession" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="socialActivity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spouseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RSM" representedClassName="RSM" syncable="YES" codeGenerationType="class">
+        <attribute name="constituencies" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localaddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localphone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="party" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permanentphone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Person" positionX="-63" positionY="-18" width="128" height="90"/>
         <element name="Address" positionX="-54" positionY="18" width="128" height="135"/>
+        <element name="RajaSabhaMember" positionX="259" positionY="-108" width="128" height="315"/>
+        <element name="RSM" positionX="529" positionY="63" width="128" height="208"/>
     </elements>
 </model>
